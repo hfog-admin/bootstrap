@@ -1,0 +1,249 @@
+/* GLOBAL STYLES
+ * Padding below the footer and lighter body text
+* -------------------------------------------------- */
+
+body {
+    min-height: 2000px;
+    padding-top: 50px;
+    color: #5a5a5a;
+
+  }
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+  
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+p {
+    font-size: 16px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #C31C64;
+    background-color: #fff;
+}
+
+.navbar-default {
+    background-color: #C31C64;
+    border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #C31C64;
+    background-color: #fff;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 5px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-brand>img {
+    display: block;
+    width: 150px;
+}
+  .navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+  }
+  
+  /* Flip around the padding for proper display in narrow viewports */
+  .navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar .container {
+    width: auto;
+  }
+  
+  
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+  
+  /* Carousel base class */
+  .carousel {
+    height: 400px;
+    margin-bottom: 60px;
+  }
+  .carousel-caption {
+    z-index: 10; /* Since positioning the image, we need to help out the caption */
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel .item {
+    height: 400px;
+    background-color: #777;
+  }
+  .carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 400px;
+  }
+  
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+  
+  /* Featurettes
+  ------------------------- */
+
+  .rounded-circle {
+    border-radius: 50%!important;
+  }
+
+ .article {
+    text-align: center;
+ }
+ .article > img {
+    vertical-align: middle;
+    border-style: none;
+ }
+  .featurette-divider {
+    margin: 40px 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  .google_map {
+      width: 100%;
+      height: 450px;
+      border: 0;
+  }
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    margin-top: 10px;
+  }
+  .featurette-image {
+      margin-top: 10px;
+  }
+ .lead {
+     font-size: 18px;
+ } 
+  .text-muted > span {
+
+  }
+  .joinus > img {
+    width: 100%;
+  }
+  .joinus > h1 {
+      text-align: center;
+      color: #3d76b9;
+      font-size: 36px;
+      margin: 20px 0px;
+  }
+  .joinus > h2 {
+      margin-top: 10px;
+      font-size: 26px;
+      text-align: center;
+      color: #3d76b9;
+  }
+  .findus > h1 {
+    text-align: left;
+    color: #3d76b9;
+    font-size: 36px;
+    margin: 20px 0px;
+}
+.findus > h2 {
+    margin-top: 10px;
+    font-size: 26px;
+    text-align: center;
+    color: #3d76b9;
+}
+.indent { 
+    text-indent: 10px;
+}
+  /* FOOTER */
+  .footer {
+      background-color: #5a5a5a;
+      padding: 40px 0px;
+      color: #eee;
+      vertical-align: middle;
+  }
+  .footer_text > p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .footer_text > img {
+      width: 100%;
+  }
+  .footer_link {
+      color: #eee;
+      text-decoration: none;
+  }
+  .footer_link:hover {
+    color: #C31C64;
+    text-decoration: underline;
+}
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 768px) {
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+      margin-top: 20px;
+    }
+    .navbar-wrapper .container {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    .navbar-wrapper .navbar {
+      padding-right: 0;
+      padding-left: 0;
+      border-radius: 4px; /* The navbar becomes detached from the top, so we round the corners */
+    }
+  
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 20px;
+      font-size: 21px;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 45px;
+    }
+    .featurette-heading > span {
+        font-size: 35px;
+      }
+  }
+  
+  @media (min-width: 992px) {
+    .featurette-heading {
+      margin-top: 10px;
+    }
+  }
