@@ -170,6 +170,22 @@ p {
       text-align: center;
       color: #3d76b9;
   }
+  .intro > h1 {
+      text-align: center;
+      color: #3d76b9;
+      font-size: 36px;
+      margin: 20px 0px;
+  }
+ .intro > img {
+    vertical-align: middle;
+    border-style: none;
+ }
+  .intro > h2 {
+      margin-top: 10px;
+      font-size: 26px;
+      text-align: center;
+      color: #3d76b9;
+  }
   .findus > h1 {
     text-align: left;
     color: #3d76b9;
@@ -207,10 +223,6 @@ p {
     color: #C31C64;
     text-decoration: underline;
 }
- .intro > img {
-    vertical-align: middle;
-    border-style: none;
- }
   
   /* RESPONSIVE CSS
   -------------------------------------------------- */
