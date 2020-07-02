@@ -159,19 +159,20 @@ p {
     width: 100%;
   }
   .joinus > h1 {
-      text-align: center;
       color: #3d76b9;
+      text-align: left;
       font-size: 36px;
       margin: 20px 0px;
   }
   .joinus > h2 {
       margin-top: 10px;
+      text-align: left;
       font-size: 26px;
       text-align: center;
       color: #3d76b9;
   }
   .intro > h1 {
-      text-align: center;
+      text-align: left;
       color: #3d76b9;
       font-size: 36px;
       margin: 20px 0px;
@@ -183,7 +184,6 @@ p {
   .intro > h2 {
       margin-top: 10px;
       font-size: 26px;
-      text-align: center;
       color: #3d76b9;
   }
   .findus > h1 {
