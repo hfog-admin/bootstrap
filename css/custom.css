@@ -207,6 +207,10 @@ p {
     color: #C31C64;
     text-decoration: underline;
 }
+ .intro > img {
+    vertical-align: middle;
+    border-style: none;
+ }
   
   /* RESPONSIVE CSS
   -------------------------------------------------- */
