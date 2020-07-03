@@ -131,7 +131,7 @@ p {
     border-style: none;
  }
   .featurette-divider {
-    margin: 40px 0; /* Space out the Bootstrap <hr> more */
+    margin: 20px 0; /* Space out the Bootstrap <hr> */
   }
   
   .google_map {
